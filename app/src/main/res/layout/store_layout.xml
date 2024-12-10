@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/storeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Botón Menú -->
+    <Button
+        android:id="@+id/btnMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:text="Menú"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@android:color/white"
+        android:padding="8dp" />
+
+    <!-- Barra de búsqueda -->
+    <EditText
+        android:id="@+id/searchBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/btnMenu"
+        android:layout_toStartOf="@id/btnCart"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:hint="Buscar..."
+        android:background="@android:drawable/edit_text"
+        android:padding="8dp"
+        android:inputType="text" />
+
+    <!-- Botón Carrito -->
+    <Button
+        android:id="@+id/btnCart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:text="Carrito"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@android:color/white"
+        android:padding="8dp" />
+    <!-- Productos Primera Fila -->
+    <GridLayout
+        android:id="@+id/productGrid1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/searchBar"
+        android:layout_marginTop="16dp"
+        android:columnCount="3"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:gravity="center">
+
+        <!-- Producto 1 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:background="@android:color/white"
+            android:elevation="4dp"
+            android:gravity="center">
+
+            <!-- Imagen del producto 1 -->
+            <ImageView
+                android:id="@+id/imgProduct1"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@android:drawable/ic_menu_camera"
+                />
+
+            <!-- Precio del producto 1 -->
+            <TextView
+                android:id="@+id/txtPrice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$10.000"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- Producto 2 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:background="@android:color/white"
+            android:elevation="4dp"
+            android:gravity="center">
+
+            <!-- Imagen del producto 2 -->
+            <ImageView
+                android:id="@+id/imgProduct2"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@android:drawable/ic_menu_gallery"
+                />
+
+            <!-- Precio del producto 2 -->
+            <TextView
+                android:id="@+id/txtPrice2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$10.000"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- Producto 3 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:background="@android:color/white"
+            android:elevation="4dp"
+            android:gravity="center">
+
+            <!-- Imagen del producto 3 -->
+            <ImageView
+                android:id="@+id/imgProduct3"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@android:drawable/ic_menu_slideshow"
+                />
+
+            <!-- Precio del producto 3 -->
+            <TextView
+                android:id="@+id/txtPrice3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$10.000"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </GridLayout>
+
+    <!-- Productos Segunda Fila -->
+    <GridLayout
+        android:id="@+id/productGrid2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/productGrid1"
+        android:layout_marginTop="16dp"
+        android:columnCount="3"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:gravity="center">
+
+        <!-- Producto 4 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:background="@android:color/white"
+            android:elevation="4dp"
+            android:gravity="center">
+
+            <!-- Imagen del producto 4 -->
+            <ImageView
+                android:id="@+id/imgProduct4"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@android:drawable/ic_menu_camera"
+                />
+
+            <!-- Precio del producto 4 -->
+            <TextView
+                android:id="@+id/txtPrice4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$10.000"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- Producto 5 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:background="@android:color/white"
+            android:elevation="4dp"
+            android:gravity="center">
+
+            <!-- Imagen del producto 5 -->
+            <ImageView
+                android:id="@+id/imgProduct5"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@android:drawable/ic_menu_gallery"
+                />
+
+            <!-- Precio del producto 5 -->
+            <TextView
+                android:id="@+id/txtPrice5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$10.000"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- Producto 6 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:background="@android:color/white"
+            android:elevation="4dp"
+            android:gravity="center">
+
+            <!-- Imagen del producto 6 -->
+            <ImageView
+                android:id="@+id/imgProduct6"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@android:drawable/ic_menu_slideshow"
+                />
+
+            <!-- Precio del producto 6 -->
+            <TextView
+                android:id="@+id/txtPrice6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$10.000"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </GridLayout>
+
+    <!-- Productos Tercera Fila -->
+    <GridLayout
+        android:id="@+id/productGrid3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/productGrid2"
+        android:layout_marginTop="16dp"
+        android:columnCount="3"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:gravity="center">
+
+        <!-- Producto 7 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:background="@android:color/white"
+            android:elevation="4dp"
+            android:gravity="center">
+
+            <!-- Imagen del producto 7 -->
+            <ImageView
+                android:id="@+id/imgProduct7"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@android:drawable/ic_menu_camera"
+                />
+
+            <!-- Precio del producto 7 -->
+            <TextView
+                android:id="@+id/txtPrice7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$10.000"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- Producto 8 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:background="@android:color/white"
+            android:elevation="4dp"
+            android:gravity="center">
+
+            <!-- Imagen del producto 8 -->
+            <ImageView
+                android:id="@+id/imgProduct8"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@android:drawable/ic_menu_gallery"
+                />
+
+            <!-- Precio del producto 8 -->
+            <TextView
+                android:id="@+id/txtPrice8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$10.000"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- Producto 9 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:background="@android:color/white"
+            android:elevation="4dp"
+            android:gravity="center">
+
+            <!-- Imagen del producto 9 -->
+            <ImageView
+                android:id="@+id/imgProduct9"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@android:drawable/ic_menu_slideshow"
+                />
+
+            <!-- Precio del producto 9 -->
+            <TextView
+                android:id="@+id/txtPrice9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$10.000"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </GridLayout>
+</RelativeLayout>
