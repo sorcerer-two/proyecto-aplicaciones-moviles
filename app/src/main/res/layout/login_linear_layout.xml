@@ -34,4 +34,15 @@
         android:textColor="@color/white"
         android:padding="10dp" />
 
+    <TextView
+        android:text="Error de login"
+        android:id="@+id/loginError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:visibility="invisible" />
+
 </LinearLayout>
