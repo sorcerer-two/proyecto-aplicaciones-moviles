@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <!-- Imagen del producto -->
+    <ImageView
+        android:id="@+id/imgProductDetail"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@android:drawable/ic_menu_gallery"
+        android:contentDescription="Imagen del producto"
+        android:scaleType="centerCrop"
+        android:layout_alignParentTop="true" />
+
+    <!-- Nombre del producto -->
+    <TextView
+        android:id="@+id/txtProductName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgProductDetail"
+        android:layout_marginTop="16dp"
+        android:text="Nombre del Producto"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black" />
+
+    <!-- Precio del producto -->
+    <TextView
+        android:id="@+id/txtProductPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtProductName"
+        android:layout_marginTop="8dp"
+        android:text="$10.000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <!-- Descripción del producto -->
+    <TextView
+        android:id="@+id/txtProductDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtProductPrice"
+        android:layout_marginTop="16dp"
+        android:text="Descripción del producto aquí"
+        android:textSize="16sp"
+        android:textColor="@android:color/black" />
+
+    <!-- Botón Agregar al carrito -->
+    <Button
+        android:id="@+id/btnAddToCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/purple_500"
+        android:text="Agregar al carrito"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <!-- Botón Volver -->
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_below="@id/txtProductDescription"
+        android:backgroundTint="@color/purple_500"
+        android:text="Volver"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+</RelativeLayout>

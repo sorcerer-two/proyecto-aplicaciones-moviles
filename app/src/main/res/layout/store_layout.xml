@@ -56,6 +56,7 @@
 
         <!-- Producto 1 -->
         <LinearLayout
+            android:id="@+id/layoutProduct1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -86,6 +87,7 @@
 
         <!-- Producto 2 -->
         <LinearLayout
+            android:id="@+id/layoutProduct2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -116,6 +118,7 @@
 
         <!-- Producto 3 -->
         <LinearLayout
+            android:id="@+id/layoutProduct3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -160,6 +163,7 @@
 
         <!-- Producto 4 -->
         <LinearLayout
+            android:id="@+id/layoutProduct4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -190,6 +194,7 @@
 
         <!-- Producto 5 -->
         <LinearLayout
+            android:id="@+id/layoutProduct5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -220,6 +225,7 @@
 
         <!-- Producto 6 -->
         <LinearLayout
+            android:id="@+id/layoutProduct6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -264,6 +270,7 @@
 
         <!-- Producto 7 -->
         <LinearLayout
+            android:id="@+id/layoutProduct7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -294,6 +301,7 @@
 
         <!-- Producto 8 -->
         <LinearLayout
+            android:id="@+id/layoutProduct8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -324,6 +332,7 @@
 
         <!-- Producto 9 -->
         <LinearLayout
+            android:id="@+id/layoutProduct9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
