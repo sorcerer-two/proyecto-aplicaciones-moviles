@@ -1,3 +1,44 @@
 <resources>
     <string name="app_name">proyecto-aplicaciones-moviles</string>
+
+    <string name="producto1">Producto 1</string>
+    <string name="producto1_precio">10000</string>
+    <string name="producto1_descripcion">Descripcion del producto 1</string>
+
+    <string name="producto2">Producto 2</string>
+    <string name="producto2_precio">11000</string>
+    <string name="producto2_descripcion">Descripcion del producto 2</string>
+
+    <string name="producto3">Producto 3</string>
+    <string name="producto3_precio">12000</string>
+    <string name="producto3_descripcion">Descripcion del producto 3</string>
+
+    <string name="producto4">Producto 4</string>
+    <string name="producto4_precio">13000</string>
+    <string name="producto4_descripcion">Descripcion del producto 4</string>
+
+    <string name="producto5">Producto 5</string>
+    <string name="producto5_precio">14000</string>
+    <string name="producto5_descripcion">Descripcion del producto 5</string>
+
+    <string name="producto6">Producto 6</string>
+    <string name="producto6_precio">15000</string>
+    <string name="producto6_descripcion">Descripcion del producto 6</string>
+
+    <string name="producto7">Producto 7</string>
+    <string name="producto7_precio">16000</string>
+    <string name="producto7_descripcion">Descripcion del producto 7</string>
+
+    <string name="producto8">Producto 8</string>
+    <string name="producto8_precio">17000</string>
+    <string name="producto8_descripcion">Descripcion del producto 8</string>
+
+    <string name="producto9">Producto 9</string>
+    <string name="producto9_precio">18000</string>
+    <string name="producto9_descripcion">Descripcion del producto 9</string>
+
+    <string name="product_detail_name">Nombre de producto</string>
+    <string name="product_detail_price">000000</string>
+    <string name="product_detail_description">Descripcion del producto</string>
+
 </resources>
